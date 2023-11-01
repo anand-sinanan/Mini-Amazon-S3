@@ -47,6 +47,8 @@ class AmazonS3 {
 
 	private $amz_headers = array();
 	private $error = array();
+	private $headers = array();
+	private $errors = array();
 
 	/**
 	 * Initialize class
